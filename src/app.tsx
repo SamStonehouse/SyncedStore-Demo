@@ -4,11 +4,15 @@ import styles from './app.module.css';
 
 import './app.css';
 import './variables.css';
+import StoreProvider from './store/store-provder';
+import Main from './todo/main';
 
 const App = (): JSX.Element => {
   return (
     <div className={styles.app}>
-      App
+      <StoreProvider>
+        <Main />
+      </StoreProvider>
     </div>
   );
 };

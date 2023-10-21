@@ -9,11 +9,16 @@
     "preview": "vite preview",
     "lint": "eslint",
     "prettier": "prettier",
-    "test": "vitest"
+    "test": "vitest",
+    "signaling": "y-webrtc-signaling"
   },
   "dependencies": {
+    "@syncedstore/core": "^0.6.0",
+    "@syncedstore/react": "^0.6.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "y-webrtc": "^10.2.5",
+    "yjs": "^13.6.8"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
