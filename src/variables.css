@@ -1,0 +1,10 @@
+:root {
+  --base-border-radius: 3px;
+  --base-spacing: 6px;
+  --base-spacing-2x: 12px;
+  --base-spacing-3x: 18px;
+  --base-spacing-4x: 24px;
+
+  --base-bg-color: #2d3240;
+  --base-fg-color: #fff;
+}
