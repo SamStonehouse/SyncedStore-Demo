@@ -7,6 +7,8 @@ import './variables.css';
 import StoreProvider from './store/store-provder';
 import Main from './todo/main';
 
+localStorage.log = 'true';
+
 const App = (): JSX.Element => {
   return (
     <div className={styles.app}>

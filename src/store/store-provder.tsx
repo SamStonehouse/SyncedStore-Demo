@@ -18,6 +18,7 @@ const StoreProvider = ({ children }: iProps) => {
 
     const provider = new WebrtcProvider(roomName, doc, {
       signaling: ['ws://localhost:4444'],
+      filterBcConns: false,
     });
 
     setConnected(true);
